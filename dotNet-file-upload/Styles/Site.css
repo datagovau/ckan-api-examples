@@ -1,0 +1,58 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body {
+   font-family: Verdana, Tahoma, Arial, Geneva, sans-serif;
+   line-height: 1.5em;
+   font-weight: normal;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+h2 {
+   font-weight: normal;
+   font-size: 130%;
+   margin: 1em;
+}
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+.successNotification {
+   color: #008000;
+}
+.failureNotification
+{
+    color: Red;
+}
+p {
+   margin-left: 2em;
+   padding-left: 2em;
+}
