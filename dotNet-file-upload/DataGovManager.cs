@@ -49,6 +49,7 @@ namespace DataGovAuUpload {
                   using (StreamReader reader = new StreamReader(ErrorStream)) {
                      Outcome.PostStatus = reader.ReadToEnd();
                      Outcome.Success = false;
+                     return Outcome;
                   }
             }
             else {

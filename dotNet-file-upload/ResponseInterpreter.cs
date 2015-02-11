@@ -35,7 +35,7 @@ namespace DataGovAuUpload {
          Outcome.PostStatus = postStatus;
          string OutcomeStatusMessage = ExtractOutcome(ResponseFields);
          string OutcomeStatusBody = ExtractResponseValues(ResponseFields);
-         Outcome.Success = (String.IsNullOrEmpty(OutcomeStatusMessage));
+         Outcome.Success = !(String.IsNullOrEmpty(OutcomeStatusMessage));
          Outcome.FormattedMessage = OutcomeStatusMessage + "\r\n" + OutcomeStatusBody;
          return Outcome;
       }
